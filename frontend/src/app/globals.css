@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: hsl(56 43% 94%);
+    --foreground: hsl(0 0% 20%);
+    --card: hsl(0 0% 100%);
+    --card-foreground: hsl(0 0% 20%);
+    --popover: hsl(0 0% 100%);
+    --popover-foreground: hsl(0 0% 20%);
+    --primary: hsl(0 0% 20%);
+    --primary-foreground: hsl(0 0% 98%);
+    --secondary: hsl(43 21% 80%);
+    --secondary-foreground: hsl(0 0% 20%);
+    --muted: hsl(43 21% 85%);
+    --muted-foreground: hsl(0 0% 36%);
+    --accent: hsl(43 21% 80%);
+    --accent-foreground: hsl(0 0% 20%);
+    --destructive: hsl(0 84.2% 60.2%);
+    --destructive-foreground: hsl(0 0% 98%);
+    --border: hsl(43 21% 80%);
+    --input: hsl(43 21% 80%);
+    --ring: hsl(0 0% 20%);
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: hsl(0 0% 10%);
+    --foreground: hsl(0 0% 98%);
+    --card: hsl(0 0% 15%);
+    --card-foreground: hsl(0 0% 98%);
+    --popover: hsl(0 0% 15%);
+    --popover-foreground: hsl(0 0% 98%);
+    --primary: hsl(0 0% 98%);
+    --primary-foreground: hsl(0 0% 10%);
+    --secondary: hsl(0 0% 20%);
+    --secondary-foreground: hsl(0 0% 98%);
+    --muted: hsl(0 0% 20%);
+    --muted-foreground: hsl(0 0% 70%);
+    --accent: hsl(0 0% 20%);
+    --accent-foreground: hsl(0 0% 98%);
+    --destructive: hsl(0 62.8% 30.6%);
+    --destructive-foreground: hsl(0 0% 98%);
+    --border: hsl(0 0% 20%);
+    --input: hsl(0 0% 20%);
+    --ring: hsl(0 0% 80%);
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+.font-serif {
+  font-family: "Cormorant Garamond", serif;
+}
