@@ -7,14 +7,14 @@ It's a simple web app surfacing three questions each morning:
 2. Are you obsessed with it?
 3. What acts of agency are you taking for it? 
 
-AOA is a simple tool to help you proactively set today's attention, check whether it aligns with your long-term obsessions, and reminds of your innate capacity to exercise agency. 
+AOA is a tool to help you proactively set today's attention, check whether it aligns with your long-term obsessions, and reminds of your innate capacity to exercise agency. 
 
 Yes, it's rather a philosophical project and you can read all about it here: [link](https://www.soulchoi.com/soul/AOA_introduction)
 
 
 
 ### Screenshot: 
-
+<img src="https://github.com/user-attachments/assets/449b963a-e539-497b-9649-8af47c1f9574" width="500" alt="Description">
 
 It's a web application with a FastAPI backend, Postgres DB and a React(Next.js, TypeScript, Tailwind CSS, shadcn/ui frontend). This version lets you build your own with Docker. 
 
