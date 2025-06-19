@@ -222,7 +222,7 @@ export default function Home() {
 
     // After creating the user and their first log, we need to fetch that log
     // to update the UI state correctly (e.g., switch to checkout mode).
-    const today = new Date().toISOString().split("T")[0];
+    const today = new Date().toLocaleDateString('sv');
     api.getLogByDate(newUser.id, today)
       .then(log => {
         if (log) {
